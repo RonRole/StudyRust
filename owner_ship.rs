@@ -13,7 +13,7 @@ fn main() {
     // get_ownership(input);
     // get_ownership(input);
     
-    // 通る 所有権を引数に求める関数でも、&を付けて(値を借用して)呼び出せる
+    // 通る get_ownershipのTが&Stringだと解釈される
     // get_ownership(&input);
     // get_ownership(&input);
     
